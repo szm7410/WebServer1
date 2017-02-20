@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServer", "WebServer\WebServer.csproj", "{E5262CA6-796C-436F-A457-7614B4054BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestV3", "TestV3\TestV3.csproj", "{E68BC45E-6E68-4E43-AC91-D5B1A57238E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisTest", "RedisTest\RedisTest.csproj", "{DAD1764B-44A7-42A4-A410-BA9478E835BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{3E400ED0-1F24-45AF-9D6A-8C0933B0BAF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatMessaging", "WechatMessaging\WechatMessaging.csproj", "{21E21EE3-D084-4E17-82C6-3E75B1D51191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{CF706548-0785-4D5D-B2E1-227879A7C28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{BCB96A7E-D581-4C50-9D20-2DD1D615B527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5262CA6-796C-436F-A457-7614B4054BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5262CA6-796C-436F-A457-7614B4054BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5262CA6-796C-436F-A457-7614B4054BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5262CA6-796C-436F-A457-7614B4054BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68BC45E-6E68-4E43-AC91-D5B1A57238E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68BC45E-6E68-4E43-AC91-D5B1A57238E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68BC45E-6E68-4E43-AC91-D5B1A57238E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68BC45E-6E68-4E43-AC91-D5B1A57238E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD1764B-44A7-42A4-A410-BA9478E835BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD1764B-44A7-42A4-A410-BA9478E835BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD1764B-44A7-42A4-A410-BA9478E835BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD1764B-44A7-42A4-A410-BA9478E835BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E400ED0-1F24-45AF-9D6A-8C0933B0BAF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E400ED0-1F24-45AF-9D6A-8C0933B0BAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E400ED0-1F24-45AF-9D6A-8C0933B0BAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E400ED0-1F24-45AF-9D6A-8C0933B0BAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E21EE3-D084-4E17-82C6-3E75B1D51191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E21EE3-D084-4E17-82C6-3E75B1D51191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E21EE3-D084-4E17-82C6-3E75B1D51191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E21EE3-D084-4E17-82C6-3E75B1D51191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF706548-0785-4D5D-B2E1-227879A7C28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF706548-0785-4D5D-B2E1-227879A7C28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF706548-0785-4D5D-B2E1-227879A7C28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF706548-0785-4D5D-B2E1-227879A7C28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB96A7E-D581-4C50-9D20-2DD1D615B527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB96A7E-D581-4C50-9D20-2DD1D615B527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB96A7E-D581-4C50-9D20-2DD1D615B527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB96A7E-D581-4C50-9D20-2DD1D615B527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
