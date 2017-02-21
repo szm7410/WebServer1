@@ -43,6 +43,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dapper, Version=1.40.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elmah, Version=1.2.13605.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\elmah.corelibrary.1.2\lib\Elmah.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elmah.Mvc, Version=2.1.2.1389, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elmah.Mvc.2.1.2\lib\net40\Elmah.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
       <Private>True</Private>
@@ -71,19 +83,83 @@
       <HintPath>..\packages\Microsoft.ApplicationInsights.2.1.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Applications.Telemetry, Version=1.1.212.0, Culture=neutral, PublicKeyToken=ffe01d0f25e9b4f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Applications.Telemetry.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Applications.Telemetry.Azure, Version=1.1.212.0, Culture=neutral, PublicKeyToken=ffe01d0f25e9b4f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Applications.Telemetry.Azure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bond, Version=3.0.7.0, Culture=neutral, PublicKeyToken=cf7230938fec607f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Bond.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bond.Interfaces, Version=3.0.3.0, Culture=neutral, PublicKeyToken=cf7230938fec607f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Bond.Interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Microsoft.DragonGate.Common.DataType">
-      <HintPath>..\..\..\..\..\Videos\TestV3\packages\Microsoft.DragonGate.SamplePackage.0.9.2.3\lib\net45\Microsoft.DragonGate.Common.DataType.dll</HintPath>
+    <Reference Include="Microsoft.DragonGate.Client, Version=3.0.0.478, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.DragonGate.Client.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Videos\TestV3\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Microsoft.DragonGate.Common.DataType, Version=3.0.0.478, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.DragonGate.Common.DataType.dll</HintPath>
+      <Private>True</Private>
     </Reference>
-    <Reference Include="System.Net.Http" />
+    <Reference Include="Microsoft.DragonGate.CustomResource.Provider, Version=3.0.0.478, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.DragonGate.CustomResource.Provider.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.DragonGate.GroupManager, Version=3.0.0.187, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.DragonGate.GroupManager.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Shennong.Common, Version=3.0.0.478, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Shennong.Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Shennong.WeChatMessaging, Version=3.0.0.478, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Shennong.WeChatMessaging.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLinq, Version=3.0.1.0, Culture=neutral, PublicKeyToken=1c5d57eb9e11fe4b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\SQLinq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLinq.Dapper, Version=1.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\SQLinq.Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\StackExchange.Redis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -93,6 +169,38 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DragonGate.SDKPackage.0.9.7.1\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />

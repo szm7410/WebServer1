@@ -47,10 +47,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataType\Token.cs" />
+    <Compile Include="DataType\WEASuiteToken.cs" />
     <Compile Include="DataType\WeChatAccessToken.cs" />
     <Compile Include="DataType\WeChatToken.cs" />
+    <Compile Include="DataType\WeChatUserInfoToken.cs" />
+    <Compile Include="Exceptions\HttpHelperException.cs" />
+    <Compile Include="Exceptions\WeChatSrvProxyException.cs" />
+    <Compile Include="Exceptions\WeChatSrvProxyTokenInvalidException.cs" />
+    <Compile Include="HelperFunctions\HttpHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TokenManager.cs" />
+    <Compile Include="WEA3rthAuthSuiteTokenRequestMessage.cs" />
+    <Compile Include="WeChatRequestMessage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

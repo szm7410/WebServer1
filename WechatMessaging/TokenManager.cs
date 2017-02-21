@@ -168,7 +168,7 @@ namespace WechatMessaging
     public class WSAUserInfoAccessTokenManager : TokenManager
     {
         private const string requestAccessTokenUrl = @"https://api.weixin.qq.com/sns/oauth2/access_token?appid={0}&secret={1}&code={2}&grant_type=authorization_code";
-        private const string refreshAccesstokenUrl = @"https://api.weixin.qq.com/sns/oauth2/refresh_token?appid={0}&grant_type=refresh_token&refresh_token={1}";
+        private const string refreshAccessTokenUrl = @"https://api.weixin.qq.com/sns/oauth2/refresh_token?appid={0}&grant_type=refresh_token&refresh_token={1}";
         private const string verifyOpenIdUrl = @"https://api.weixin.qq.com/sns/auth?access_token={0}&openid={1}";
 
         private string _openId;
@@ -215,12 +215,12 @@ namespace WechatMessaging
             }
             if (this._token != null)
             {
-                string response = this.GetResponseStringFromUrl(string.Format(refreshAccesstokenUrl, this.AppId, this._token.AccessToken));
+                string response = this.GetResponseStringFromUrl(string.Format(refreshAccessTokenUrl, this.AppId, this._token.AccessToken));
                 this.HandleTokenResponse(response);
             }
             else
             {
-                string response = this.GetResponseStringFromUrl(string.Format(requestAccesstokenUrl, this.AppId, this.GetAppSecret(), this._code));
+                string response = this.GetResponseStringFromUrl(string.Format(requestAccessTokenUrl, this.AppId, this.GetAppSecret(), this._code));
             }
         }
 
